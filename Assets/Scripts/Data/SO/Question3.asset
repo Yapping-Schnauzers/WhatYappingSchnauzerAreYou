@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339690fed19414e9d973ec40d87ced9c, type: 3}
+  m_Name: Question3
+  m_EditorClassIdentifier: 
+  question: "What\u2019s your favorite kind of snack?"
+  answers:
+  - {fileID: 11400000, guid: 774a64971c15e49b9b4963fe189c7484, type: 2}
+  - {fileID: 11400000, guid: 87a6b6cdf5a124fecb2712e2b0eb433f, type: 2}
+  - {fileID: 11400000, guid: 37aeb4177cea44f36be3bb44b6bf10fe, type: 2}
+  - {fileID: 11400000, guid: b18859d4faa404803ad187020febc97d, type: 2}

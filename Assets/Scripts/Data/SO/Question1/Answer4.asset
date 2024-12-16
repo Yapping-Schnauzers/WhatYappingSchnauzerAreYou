@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdbec85433d044d689825383273ce104, type: 3}
+  m_Name: Answer4
+  m_EditorClassIdentifier: 
+  answer: Use my charm. People love helping me out!
+  points:
+  - {fileID: 11400000, guid: e3104bff57d2343749e0974a0aad1ae0, type: 2}
+  - {fileID: 11400000, guid: 65656cf94dd4448d4810e07adb612e8e, type: 2}
+  - {fileID: 11400000, guid: c0efef1605a5d4d5d9f99046f16b0cc8, type: 2}

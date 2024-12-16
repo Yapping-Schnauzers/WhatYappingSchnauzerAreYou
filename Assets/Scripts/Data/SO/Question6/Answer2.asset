@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdbec85433d044d689825383273ce104, type: 3}
+  m_Name: Answer2
+  m_EditorClassIdentifier: 
+  answer: A cozy cabin surrounded by nature.
+  points:
+  - {fileID: 11400000, guid: 7a26fef531c374644b5b3846d3bf7c35, type: 2}
+  - {fileID: 11400000, guid: ad24930af67434a08b9c8fc6b098def8, type: 2}
+  - {fileID: 11400000, guid: 15096aaf79b1840e983436a8f27dcc75, type: 2}

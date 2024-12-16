@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdbec85433d044d689825383273ce104, type: 3}
+  m_Name: Answer3
+  m_EditorClassIdentifier: 
+  answer: Crack a joke to lighten the mood... even if it makes things worse.
+  points:
+  - {fileID: 11400000, guid: 573d3679ce8fe4115839b9aafb74b8f9, type: 2}
+  - {fileID: 11400000, guid: a6fe4805d4b634bfc84282a32f5f79fb, type: 2}

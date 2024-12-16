@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdbec85433d044d689825383273ce104, type: 3}
+  m_Name: Answer3
+  m_EditorClassIdentifier: 
+  answer: Rules? What rules?
+  points:
+  - {fileID: 11400000, guid: 8be13496c04df4abca6f4e7bf8120998, type: 2}
+  - {fileID: 11400000, guid: ac4ca81eb25a44bffb34ce739db43d54, type: 2}
