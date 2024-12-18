@@ -20,7 +20,6 @@ public class GameManager : MonoBehaviour {
 
     private void GameManager_OnAnswerSelected(object sender, EventArgs e) {
         questionNumber++;
-        Debug.Log("We are on question number: " + questionNumber);
     }
 
 
@@ -49,11 +48,6 @@ public class GameManager : MonoBehaviour {
         if (questionNumber >= questions.Count && quizInProgress) {
             quizInProgress = false;
             OnQuizComplete?.Invoke(this, EventArgs.Empty);
-            Debug.Log("Done!");
-            foreach (var score in Player.Instance.personalityScore) {
-                Debug.Log($"Schnauzer: {score.Key}, Score {score.Value}");
-            }
-
             ResultManager.Instance.ShowResults(Player.Instance.GetPersonality());
         }
     }

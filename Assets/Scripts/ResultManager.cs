@@ -19,10 +19,16 @@ public class ResultManager : MonoBehaviour {
 
     private int finalResultIndex;
 
-        // Start is called before the first frame update
+    // Start is called before the first frame update
     void Awake() {
         if (Instance != null) {
             Debug.LogError("Instance of GameManager already exists");
+            return;
+        }
+
+        // For when updating the result images, need to make sure to populate this field again
+        if (resultSprites.Length == 0) {
+            Debug.LogError("Please add results images to ResultManager.");
             return;
         }
 
