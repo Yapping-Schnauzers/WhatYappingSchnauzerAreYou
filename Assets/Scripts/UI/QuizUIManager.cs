@@ -113,7 +113,7 @@ public class QuizUIManager : MonoBehaviour {
         GameManager gm = GameManager.Instance;
 
         // If game is over, don't process questions arr anymore. Will result in out of bounds error.
-        if (!gm.quizInProgress) {
+        if (!gm.quizInProgress || gm.questionNumber >= gm.questions.Count) {
             return;
         }
 
