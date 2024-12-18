@@ -18,6 +18,11 @@ public class GameManager : MonoBehaviour {
 
     public bool quizInProgress { get; private set; }
 
+    private void GameManager_OnAnswerSelected(object sender, EventArgs e) {
+        questionNumber++;
+        Debug.Log("We are on question number: " + questionNumber);
+    }
+
 
     // Start is called before the first frame update
     void Awake() {
@@ -48,11 +53,8 @@ public class GameManager : MonoBehaviour {
             foreach (var score in Player.Instance.personalityScore) {
                 Debug.Log($"Schnauzer: {score.Key}, Score {score.Value}");
             }
-        }
-    }
 
-    private void GameManager_OnAnswerSelected(object sender, EventArgs e) {
-        questionNumber++;
-        Debug.Log("We are on question number: " + questionNumber);
+            ResultManager.Instance.ShowResults(Player.Instance.GetPersonality());
+        }
     }
 }

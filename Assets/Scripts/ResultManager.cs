@@ -27,6 +27,10 @@ public class ResultManager : MonoBehaviour {
         }
 
         Instance = this;
+
+        // Ensure these are not active during gameplay.
+        loadingScreen.SetActive(false);
+        resultScreen.SetActive(false);
     }
 
     public void ShowResults(YappingSchnauzer schnauzer) {
@@ -48,6 +52,7 @@ public class ResultManager : MonoBehaviour {
             
         }
 
+        Debug.Log($"finalResultIndex: {finalResultIndex}");
         StartCoroutine(DisplayResults());
     }
 
