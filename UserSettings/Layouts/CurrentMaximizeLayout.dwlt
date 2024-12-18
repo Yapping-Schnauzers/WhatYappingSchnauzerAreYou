@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 37478
+  controlID: 56926
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -395,9 +395,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 408.61017, y: 244.39427, z: -4.523257}
+    m_Target: {x: 404.10812, y: 239.99261, z: -4.751325}
     speed: 2
-    m_Value: {x: 408.61017, y: 244.39427, z: -4.523257}
+    m_Value: {x: 403.52545, y: 239.65758, z: -4.743147}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -447,9 +447,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 523.2132
+    m_Target: 546.02
     speed: 2
-    m_Value: 523.2132
+    m_Value: 545.2022
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -498,7 +498,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 37479
+  controlID: 56927
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 37480
+  controlID: 56928
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -589,9 +589,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d2630000
-      m_LastClickedID: 25554
-      m_ExpandedIDs: baf5ffff1a640000
+      m_SelectedIDs: 04b5feff
+      m_LastClickedID: -84732
+      m_ExpandedIDs: ba2cffff162dffffbaf5ffff1a640000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -607,7 +607,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -634,8 +634,8 @@ MonoBehaviour:
     y: 0
     width: 804
     height: 440
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -847,7 +847,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Data/SO
+    - Assets/Art/Icons
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -855,7 +855,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Data/SO
+  - Assets/Art/Icons
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/edgarsanmartin/Documents/TestUnityProject/What Yapping
     Schnauzer are You
@@ -863,9 +863,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8c640000
-    m_LastClickedID: 25740
-    m_ExpandedIDs: 0000000070640000726400007464000086640000
+    m_SelectedIDs: 4c8e0000
+    m_LastClickedID: 36428
+    m_ExpandedIDs: 000000007064000086640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -893,7 +893,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007064000072640000
+    m_ExpandedIDs: 0000000070640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -918,8 +918,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d2630000
-    m_LastClickedInstanceID: 25554
+    m_SelectedInstanceIDs: 04b5feff
+    m_LastClickedInstanceID: -84732
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
@@ -1050,7 +1050,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 184.50003
+  m_LastVerticalScrollValue: 191.79999
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
