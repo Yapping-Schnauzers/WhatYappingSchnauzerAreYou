@@ -58,7 +58,6 @@ public class ResultManager : MonoBehaviour {
             
         }
 
-        Debug.Log($"finalResultIndex: {finalResultIndex}");
         StartCoroutine(DisplayResults());
     }
 
